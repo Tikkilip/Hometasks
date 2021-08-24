@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul.links_1 {
+        margin: 0;
+        padding: 4px;
+      }
+      ul.links_1 li {
+        display: inline; /*В 1 способе ссылки расположены в строку, потому что отображаются как строчный элемент*/
+        margin-right: 5px;
+        border-right: 3px solid rgb(150, 0, 0); /*разделители сделаны с помощью создания границы нужного цвета справа и выставления подходящего отступа*/
+        padding: 3px 10px 0px 0px;
+      }
+      ul.links_2 {
+        list-style: none;
+        margin: 0;
+        padding: 4px;
+        overflow: hidden;
+      }
+      ul.links_2 li {
+        float: left; /*Во 2-м способе ссылки расположены в строку, потому что они являются плавающими*/
+      }
+      ul.links_2 a {
+        display: block;
+        padding-right: 11px;
+        margin-right: 8px;
+        border-right: 3px solid rgb(150, 0, 0);
+      }
+      a:link {
+        color: green;
+      }
+      a:hover {
+        color: rgb(150, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="links_1">
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Первая ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Вторая ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Третья ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Четвёртая ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Пятая ссылка</a></li>
+    </ul>
+    <ul class="links_2">
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Первая ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Вторая ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Третья ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Четвёртая ссылка</a></li>
+      <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">Пятая ссылка</a></li>
+    </ul>
+  </body>
+</html>
