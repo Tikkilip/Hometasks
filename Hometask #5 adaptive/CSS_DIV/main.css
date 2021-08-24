@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand:wght@600&display=swap");
+.body {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  background-color: rgb(231, 231, 147);
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.aside {
+  padding-left: 5px;
+  padding-top: 110px;
+  background-color: rgb(113, 111, 121);
+  font-family: "Press Start 2P", cursive;
+  width: 300px;
+  float: left;
+  min-height: 71vh;
+}
+li {
+  list-style-type: square;
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #800080;
+}
+a:hover {
+  color: #800000;
+  text-decoration: underline;
+}
+#key_words {
+  font-family: "Press Start 2P", cursive;
+  padding-top: 80px;
+  margin-top: 0px;
+  text-indent: 30px;
+}
+#joycon {
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 60px;
+}
+.text {
+  text-indent: 30px;
+  margin-bottom: 0px;
+}
+.content {
+  padding-left: 315px;
+  background-color: rgb(117, 115, 124);
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  min-height: 89vh;
+}
+#hearts {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100px;
+  height: 25px;
+}

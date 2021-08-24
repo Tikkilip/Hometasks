@@ -1,0 +1,69 @@
+@media screen and (min-width: 641px) and (max-width: 1068px) {
+    #joycon {
+        float: none;
+        padding: 0 5px 0 5px;
+        margin: 15px 0 130px 100px;
+    }
+      .aside {
+        padding: 20px 0px 35px 5px;
+        background-color: rgb(113, 111, 121);
+        font-family: "Press Start 2P", cursive;
+        min-width: 60%;
+        float: left;
+      }
+      .content {
+        padding-left: 15px;
+        background-color: rgb(117, 115, 124);
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        min-height: 89vh;
+      }
+      #key_words {
+        font-family: "Press Start 2P", cursive;
+        padding-top: 30px;
+        margin-top: 0px;
+        text-indent: 100px;
+      }
+      ul {
+          text-align: center;
+      }
+      li {
+          list-style-type: none;
+      }
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    #joycon {
+        float: none;
+        padding: 0 5px 0 5px;
+        margin: 15px 0 0px 80px;
+    }
+    .aside {
+        padding: 20px 0px 35px 0px;
+        background-color: rgb(113, 111, 121);
+        font-family: "Press Start 2P", cursive;
+        width: 100%;
+        min-height: 10vh;
+        float: none;
+      }
+      .content {
+        padding-left: 15px;
+        background-color: rgb(117, 115, 124);
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        min-height: 89vh;
+      }
+      #key_words {
+        font-family: "Press Start 2P", cursive;
+        padding-top: 30px;
+        margin-top: 0px;
+        text-indent: 20px;
+      }
+      ul {
+          text-align: center;
+          padding-left: 0px;
+      }
+      li {
+          list-style-type: none;
+      }
+}
