@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>form</title>
+  </head>
+
+  <body>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <div class="form">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <br />
+        <div class="title">
+          <span>Название статьи: <input type="text" maxlength="30" placeholder="Название" name="title" value="" /></span>
+        </div>
+        <br />
+        <div class="heading">
+          <span>Рубрика:</span>
+          <select name="rubric">
+            <option value="art">Искусство</option>
+            <option selected value="it">Программирование</option>
+            <option value="science">Наука</option>
+          </select>
+        </div>
+        <br />
+        <div class="printing">
+          <span id="first">Публикация:</span>
+          <span><input checked type="radio" name="publication" value="site" /> на сайте</span>
+          <span><input type="radio" name="publication" value="magazine" />в журнале</span>
+          <span><input type="radio" name="publication" value="both" />на сайте и в журнале</span>
+        </div>
+        <br />
+        <div class="permission">
+          <span>Разрешить комментарии<input type="checkbox" name="comments" value="yes" /></span>
+        </div>
+        <br />
+        <div class="object">
+          <span>Текст статьи:<textarea name="text"></textarea></span>
+        </div>
+        <br />
+        <div class="button">
+          <button type="submit">Опубликовать</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
