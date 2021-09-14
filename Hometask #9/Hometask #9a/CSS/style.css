@@ -1,0 +1,44 @@
+:root {
+  --color-link-hover: rgb(127, 189, 58);
+  --margin: 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: var(--margin);
+}
+
+.container_vids {
+  overflow-y: scroll;
+  width: 520px;
+}
+
+.away {
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.away::before {
+  margin-right: 5px;
+}
+
+.away:hover {
+  color: var(--color-link-hover);
+}
+
+.video,
+.title {
+  margin-bottom: var(--margin);
+}

@@ -1,0 +1,14 @@
+.svg_item {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #6f03fc63;
+}
+.svg_item:hover {
+  background-color: hsla(278, 94%, 47%, 0.301);
+}
+.svg_item rect:hover {
+  fill: rgb(218, 132, 110);
+  stroke: #5755dd;
+  stroke-width: 5px;
+  transition: 0.25s;
+}

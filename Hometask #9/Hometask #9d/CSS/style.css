@@ -1,0 +1,55 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ebe5b3;
+}
+.object {
+  width: 200px;
+  height: 200px;
+  border: 8px solid #759b93;
+  background-color: #8849f5;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.object:nth-child(even) {
+  width: 150px;
+  height: 150px;
+  background-color: #0077ff;
+  border: 3px solid #404242;
+  border-radius: 80px;
+  color: #fcfffe;
+}
+.container:hover {
+  background-color: #5d00ff;
+  transition: 3s;
+}
+.object_one {
+    transition: all 3s;
+  animation: rotate 3s linear infinite; 
+}
+@keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+  }
+.container:hover .object_one {
+  border: 10px solid #924d38;
+  background-color: #34d8eb;
+}
+.container:hover .object_two {
+  border-radius: 10px;
+  transition: 3s;
+  background-color: #cfb72e;
+}
+.container:hover .object_three {
+  width: 20%;
+  transform: skew(-5deg);
+  transition: 3s;
+  background-color: #0077ff;
+  opacity: 0.1;
+  color: #050505;
+}
