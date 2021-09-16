@@ -1,0 +1,8 @@
+.fixed_block {
+  position: fixed;
+  right: 10px;
+  top: 15%;
+  padding: 10px;
+  background: rgba(255, 255, 238, 0.486);
+  border: 1px solid #333;
+}
